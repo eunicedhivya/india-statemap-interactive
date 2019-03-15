@@ -30,27 +30,25 @@ function draw_india_map(options){
 	const tooltip = d3.select('body').append('div')
 		.attr('class', 'hidden tooltipblock');
 
-	//Get latlong, scale info of chosenstate
-	// var chosenStateInfo = getStateInfo(chosenstate);
 
 	//Enter latlong, scale info of chosenstate
-	var projection = d3.geoMercator()
+	const projection = d3.geoMercator()
 		.scale(800)
 		.center([83, 23])
 		.translate([options.width / 2, options.height / 2])
 
-	var geoPath = d3.geoPath()
+	const geoPath = d3.geoPath()
 		.projection(projection)
 // var j =0;
 	d3.json(options.map, function (error, mapshape) {
 
 
-		var allIndiaShape = topojson.feature(mapshape, mapshape.objects.collection).features;
+		let allIndiaShape = topojson.feature(mapshape, mapshape.objects.collection).features;
 
 		console.log(allIndiaShape);
 
 		//draw and enter map based on mapshape data
-		svg.selectAll(".constituency")
+		svg.selectAll(".state")
 			.data(allIndiaShape).enter().append("path")
 			.attr("d", geoPath)
 			.attr("class", "states")
@@ -58,8 +56,22 @@ function draw_india_map(options){
 			.attr('stroke', "#666")
 			.attr('stroke-width', "0.5")
 			.attr('stroke-opacity', "0.5")
-			
-			
+			.on("mouseover", function(d,i){
+
+				let show_data; 
+				
+				d3.select(this).attr("fill", "red");
+
+				show_data = '<p><b>' + d.properties.ST_NM + '</b></p>';
+
+				tooltip.classed('hidden', false)
+					.html(show_data)
+					.style("left", (d3.event.pageX + 10) + "px")
+					.style("top", d3.event.pageY + "px") 
+			})
+			.on("mouseout", function(d,i){
+				d3.select(this).attr("fill", "white");
+			})
 
 	});
 
