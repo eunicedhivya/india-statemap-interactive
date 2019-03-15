@@ -52,7 +52,7 @@ function draw_india_map(options){
 			.data(allIndiaShape).enter().append("path")
 			.attr("d", geoPath)
 			.attr("class", "states")
-			.attr('fill', "white")
+			.attr('fill', "#e8e8e8")
 			.attr('stroke', "#666")
 			.attr('stroke-width', "0.5")
 			.attr('stroke-opacity', "0.5")
@@ -70,7 +70,8 @@ function draw_india_map(options){
 					.style("top", d3.event.pageY + "px") 
 			})
 			.on("mouseout", function(d,i){
-				d3.select(this).attr("fill", "white");
+				d3.select(this).attr("fill", "#e8e8e8");
+				tooltip.classed('hidden', true)
 			})
 
 	});
