@@ -56,6 +56,9 @@ function draw_india_map(options){
 			.attr('stroke', "#666")
 			.attr('stroke-width', "0.5")
 			.attr('stroke-opacity', "0.5")
+			.on('click', function(d, i){
+				d3.select('#state-name').html('<p><b>' + d.properties.ST_NM + '</b></p>')
+			})
 			.on("mouseover", function(d,i){
 
 				let show_data; 
