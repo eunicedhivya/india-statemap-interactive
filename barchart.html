@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <title>General Elections Visualization</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="http://www.thehindu.com/static/theme/default/base/css/theme.min.css" />
+      <style>
+         * {
+         box-sizing: border-box;
+         }
+
+         body{
+             background-color:#ccc; 
+         }
+         /* Create three equal columns that floats next to each other */
+
+         .gen-election-viz{
+            background: #fff;
+            width: 1000px;
+            height: auto;
+            margin: 0 auto;
+            box-sizing:border-box;
+        }
+         
+         .column {
+         float: left;
+         padding: 10px;
+         }
+
+         .column:nth-child(1){
+            width: 40%;
+         }
+         .column:nth-child(2){
+            width: 20%;
+            background-color: #e8e8e8;
+            height: 100%;
+            min-height: 600px;
+         }
+         .column:nth-child(3){
+            width: 40%;
+         }
+
+         /* Clear floats after the columns */
+         .row-other:after {
+         content: "";
+         display: table;
+         clear: both;
+         }
+         
+         .chart{
+         width: 100%;
+         height: 500px;
+         background: #fff;
+         }
+         .infobox{
+         width: 20%;
+         height:500px;
+         background: rgb(205, 205, 205);
+         }
+         .const-level-info{
+         width: 40%;
+         height:500px;
+         }
+         .hidden { display: none; }
+         .tooltipblock { position: absolute; z-index: 1000; background-color: #fff; color: #333; padding: 15px;max-width: 300px;
+         box-shadow: 0px 0px 7px #CCCCCC; -webkit-box-shadow: 0px 0px 7px #CCCCCC; -moz-box-shadow: 0px 0px 7px #CCCCCC; }
+         .tooltipblock p{margin-bottom: 0px;}
+         .tooltipblock hr {margin-top: 5px;margin-bottom: 5px;}
+      </style>
+   </head>
+   <body>
+        <div class="gen-election-viz">
+                <div id="men-women-turnout">
+                        
+                </div>
+        </div>
+
+        <script src="http://code.jquery.com/jquery-1.12.4.min.js"></script> 
+      <script src="https://d3js.org/d3.v4.min.js"></script>
+      <script src="https://d3js.org/topojson.v2.min.js"></script>
+      <script src="static/charts/create-barchart.js"></script>
+      <script>
+        
+        let data2014 = (function () {
+            let data2014 = null;
+            $.ajax({
+                'async': false,
+                'global': false,
+                'url': 'data/test-data.json',
+                'dataType': "json",
+                'success': function (data) {
+                    data2014 = data;
+                }
+            });
+            return data2014;
+        })(); 
+
+        console.log("data2014", data2014)
+        
+        draw_Barcharts("#men-women-turnout", data2014)
+        
+                 
+      </script>
+   </body>
+</html>
