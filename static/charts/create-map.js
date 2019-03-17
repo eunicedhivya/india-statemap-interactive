@@ -1,17 +1,7 @@
-// alert("map js loaded")
 
-
-// function getStateCode() {
-// 	var selectedValue = document.getElementById("showbystate").value;
-// 	console.log(selectedValue)
-// 	map_function(loksabha_2019, selectedValue, data2014);
-// }
-
-// function getStateInfo(criteria) {
-// 	return stateInfo.filter(function (obj) {
-// 		return obj.STATE_CODE === criteria;
-// 	})
-// }
+function filterDataBy(datasource, criterion){
+	return datasource[criterion];
+}
 
 function draw_india_map(options){
 	
@@ -39,13 +29,13 @@ function draw_india_map(options){
 
 	const geoPath = d3.geoPath()
 		.projection(projection)
-// var j =0;
+
 	d3.json(options.map, function (error, mapshape) {
 
 
 		let allIndiaShape = topojson.feature(mapshape, mapshape.objects.collection).features;
 
-		console.log(allIndiaShape);
+		console.log("allIndiaShape", allIndiaShape);
 
 		//draw and enter map based on mapshape data
 		svg.selectAll(".state")
@@ -58,6 +48,8 @@ function draw_india_map(options){
 			.attr('stroke-opacity', "0.5")
 			.on('click', function(d, i){
 				d3.select('#state-name').html('<p><b>' + d.properties.ST_NM + '</b></p>')
+				let statewiseData = filterDataBy(data2014, d.properties.ST_NM);
+				console.log(statewiseData)
 			})
 			.on("mouseover", function(d,i){
 
