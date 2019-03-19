@@ -5,6 +5,7 @@
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <title>General Elections Visualization</title>
       <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i" rel="stylesheet">
       <link rel="stylesheet" href="http://www.thehindu.com/static/theme/default/base/css/theme.min.css" />
       <style>
          * {
@@ -77,6 +78,7 @@
                 </div>
         </div>
 
+
         <script src="http://code.jquery.com/jquery-1.12.4.min.js"></script> 
       <script src="https://d3js.org/d3.v4.min.js"></script>
       <script src="https://d3js.org/topojson.v2.min.js"></script>
@@ -97,9 +99,32 @@
             return data2014;
         })(); 
 
-        console.log("data2014", data2014)
         
-        draw_Barcharts("#men-women-turnout", data2014)
+        var apData = data2014['Andhra Pradesh']
+        var tasks = [
+            { 'Id': '1', 'Title': 'Go to Market 99', 'Status': 'done' },
+            { 'Id': '2', 'Title': 'Email to manager', 'Status': 'pending' },
+            { 'Id': '3', 'Title': 'Push code to GitHub', 'Status': 'done' },
+            { 'Id': '4', 'Title': 'Go for running', 'Status': 'done' },
+            { 'Id': '5', 'Title': 'Go to movie', 'Status': 'pending' },
+         ];
+
+         function CallbackFunctionToFindTaskById(task) {
+            lengObj = data2014['Andhra Pradesh'].length;
+            console.log(lengObj)
+            for(var i=0; i< lengObj; i++){
+               console.log(data2014['Andhra Pradesh'][i]['Party_Pos'])
+            }
+               
+         }
+
+         CallbackFunctionToFindTaskById();
+        
+         // var partyPosAP = filterDataByCriteria(data2014['Andhra Pradesh'], "Party_Pos");
+         
+         // console.log("partyPosAP", partyPosAP)
+        
+      //   draw_Partyposition("#men-women-turnout", data2014, "Andhra Pradesh")
         
                  
       </script>

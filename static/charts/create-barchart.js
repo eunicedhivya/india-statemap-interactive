@@ -1,4 +1,8 @@
-function draw_Barcharts(selection, datasource){
-    console.log(d3.select(selection))
-    console.log(datasource)
+function draw_Partyposition(selection, datasource, partyList){
+   
+    
+
+
+
+    
 }
