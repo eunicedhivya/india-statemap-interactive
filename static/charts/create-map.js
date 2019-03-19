@@ -1,6 +1,8 @@
 
 function filterDataBy(datasource, criterion){
-	return datasource[criterion];
+	return datasource.filter(function(obj){
+		return obj.ST_NAME === criterion;
+	})
 }
 
 function draw_india_map(options){
@@ -47,9 +49,13 @@ function draw_india_map(options){
 			.attr('stroke-width', "0.5")
 			.attr('stroke-opacity', "0.5")
 			.on('click', function(d, i){
-				d3.select('#state-name').html('<p><b>' + d.properties.ST_NM + '</b></p>')
 				let statewiseData = filterDataBy(data2014, d.properties.ST_NM);
-				console.log(statewiseData)
+				console.log(statewiseData[0].NO_LOKSABHASEATS)
+				d3.select('#state-name').html('<b>' + d.properties.ST_NM + '</b>')
+				d3.select('.number-of-lkseats span').html('<b>' + statewiseData[0].NO_LOKSABHASEATS + '</b>')
+				d3.select('.number-of-const span').html('<b>' + statewiseData[0].NO_CONST + '</b>')
+				d3.select('.no-of-pollingbooths span').html('<b>' + statewiseData[0].NO_POLLINGBOOTHS + '</b>')
+				d3.select('.no-of-voters span').html('<b>' + statewiseData[0].NO_VOTERS + '</b>')
 			})
 			.on("mouseover", function(d,i){
 

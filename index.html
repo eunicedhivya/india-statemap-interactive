@@ -30,13 +30,13 @@
          }
 
          .column:nth-child(1){
-            width: 40%;
+            width: 60%;
          }
          .column:nth-child(2){
-            width: 20%;
+            width: 40%;
             background-color: #e8e8e8;
             height: 100%;
-            min-height: 600px;
+            min-height: 772px;
          }
          .column:nth-child(3){
             width: 40%;
@@ -51,17 +51,17 @@
          
          .chart{
          width: 100%;
-         height: 500px;
+         min-height: 500px;
          background: #fff;
          }
          .infobox{
-         width: 20%;
-         height:500px;
+         /* width: 50%; */
+         min-height:772px;
          background: rgb(205, 205, 205);
          }
          .const-level-info{
          width: 40%;
-         height:500px;
+         height:772px;
          }
          .hidden { display: none; }
          .tooltipblock { position: absolute; z-index: 1000; background-color: #fff; color: #333; padding: 15px;max-width: 300px;
@@ -72,23 +72,41 @@
    </head>
    <body>
         <div class="gen-election-viz">
-              <div class="row-other">
-                 <div class="column">
-                    <h2>Dummy Header Goes Here</h2>
-                    <p>This is the primary heading and there should only be one of these per page</p>
-                    <div class="chart state-map"></div>
-                 </div>
-                 <div class="column">
-                    <h2 id="state-name"></h2>
-                    <div id="men-women-turnout">
-                        
-                    </div>
-                 </div>
-                 <div class="column">
-                    <h2>Column 3</h2>
-                    <p>Some text..</p>
-                 </div>
-              </div>
+            <div class="row-other">
+               <div class="column">
+                  <h2>Dummy Header Goes Here</h2>
+                  <p>This is the primary heading and there should only be one of these per page</p>
+                  <div class="chart state-map"></div>
+               </div>
+               <div class="column">
+                  <h2 id="state-name">India</h2>
+                  <div class="number-of-lkseats">
+                     <span>545</span>
+                     <p>Number of Lok Sabha seats</p>
+                  </div>
+                  <div class="number-of-const">
+                     <span>543</span>
+                     <p>Number of constituencies</p>
+                  </div>
+                  <div class="party-positions">
+                     Barchart
+                  </div>
+                  <div class="no-of-pollingbooths">
+                     <span>3,000</span>
+                     <p>Number of polling booths in 2019</p>
+                  </div>
+                  <div class="no-of-voters">
+                     <p>Number of Voters</p>
+                     <span>2,37,89,234</span>
+                  </div>
+                  <div class="gender-count">
+                     Bar Chart with ICons
+                  </div>
+                  <div class="religious-voteshare">
+                     Pie Chart
+                  </div>
+               </div>
+            </div>
         </div>
 
        
@@ -126,7 +144,7 @@
             $.ajax({
                 'async': false,
                 'global': false,
-                'url': 'data/test-data.json',
+                'url': 'data/test-data-state.json',
                 'dataType': "json",
                 'success': function (data) {
                     data2014 = data;
@@ -144,8 +162,10 @@
              margin: { top: 50, left: 50, right: 50, bottom: 50 },
              width: 430,
              height: 500,
-             map: "static/maps/india_state.json"
+             map: "static/maps/india_state.json",
+             dataset: "data/test-data-state.json"
          }
+
          draw_india_map(state_settings);        
                  
       </script>
