@@ -68,6 +68,15 @@
          box-shadow: 0px 0px 7px #CCCCCC; -webkit-box-shadow: 0px 0px 7px #CCCCCC; -moz-box-shadow: 0px 0px 7px #CCCCCC; }
          .tooltipblock p{margin-bottom: 0px;}
          .tooltipblock hr {margin-top: 5px;margin-bottom: 5px;}
+         
+         /*Chart data*/
+         
+         svg{
+            background: #fff;
+         }
+
+         .yAxis path {display:none;}
+         .yAxis .tick text {font-size: 16px;}
       </style>
    </head>
    <body>
@@ -84,12 +93,9 @@
                      <span>545</span>
                      <p>Number of Lok Sabha seats</p>
                   </div>
-                  <div class="number-of-const">
-                     <span>543</span>
-                     <p>Number of constituencies</p>
-                  </div>
-                  <div class="party-positions">
-                     Barchart
+                  <div id="party-positions">
+                     <p>Party Position</p>
+                     <svg viewBox="0 0 650 400" preserveAspectRatio="xMinYMin"></svg>
                   </div>
                   <div class="no-of-pollingbooths">
                      <span>3,000</span>
@@ -99,8 +105,8 @@
                      <p>Number of Voters</p>
                      <span>2,37,89,234</span>
                   </div>
-                  <div class="gender-count">
-                     Bar Chart with ICons
+                  <div id="gender-count">
+                     <svg viewBox="0 0 650 400" preserveAspectRatio="xMinYMin"></svg>
                   </div>
                   <div class="religious-voteshare">
                      Pie Chart
@@ -166,7 +172,29 @@
              dataset: "data/test-data-state.json"
          }
 
-         draw_india_map(state_settings);        
+         draw_india_map(state_settings);
+
+         const findIndiaData = filterDataBy(data2014, "India");
+
+         let india_party_pos = findIndiaData[0]['Party_Pos']
+
+         const india_gender_count = findIndiaData[0]['Gender_Count']
+         
+         drawPartyPos("#party-positions", india_party_pos, {
+            width: 650,
+            height: 400,
+            margin: { top: 20, right: 20, bottom: 50, left: 80 },
+            xAxisLabel: "Partyname",
+            yAxisLabel: "Votes",
+         });
+
+         drawPartyPos("#gender-count", india_gender_count, {
+            width: 650,
+            height: 400,
+            margin: { top: 20, right: 20, bottom: 50, left: 80 },
+            xAxisLabel: "Gendername",
+            yAxisLabel: "votercount",
+         });     
                  
       </script>
    </body>

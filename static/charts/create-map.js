@@ -5,6 +5,58 @@ function filterDataBy(datasource, criterion){
 	})
 }
 
+function drawPartyPos(selection, bardata, props) {
+	console.log("bardata", bardata);
+	const { width, height, margin, xAxisLabel, yAxisLabel } = props
+	const chartWidth = width - margin.left - margin.right,
+		chartHeight = height - margin.top - margin.bottom;
+
+	let svg = d3.select(selection + " svg")
+
+	svg.html(null)
+
+	const g = svg.append('g')
+		.attr('transform', 'translate(' + margin.left + ',' + margin.top + ')');
+
+	const yScale = d3.scaleBand()
+		.range([0, chartHeight])
+		.domain(bardata.map(function (d) { return d[xAxisLabel]; }))
+		.padding(0.1);
+
+	g.append("g").attr('class', 'yAxis')
+		.call(d3.axisLeft(yScale))
+
+	const xScale = d3.scaleLinear()
+		.domain([0, d3.max(bardata, function (d) { return d[yAxisLabel] + (d[yAxisLabel]/2); })])
+		.range([0, chartWidth])
+
+	// Join Data
+	let bars = g.selectAll('.bar')
+		.data(bardata);
+
+	//enter selection
+	bars.enter().append('rect')
+		.attr('class', 'bar')
+		.attr('fill', "#ccc")
+		.attr('x', 0)
+		.attr('height', yScale.bandwidth())
+		//update and merge
+		.merge(bars)
+		.attr('y', function (d, i) {
+			return yScale(d[xAxisLabel])
+		})
+		.transition().duration(1000)
+		.attr('width', function (d, i) {
+			// console.log(xScale(d[yAxisLabel]))
+			return xScale(d[yAxisLabel]);
+		})
+
+	//exit
+	bars.exit().remove()
+
+
+} //end of drawPartyPos
+
 function draw_india_map(options){
 	
 	// //Empty container
@@ -50,12 +102,32 @@ function draw_india_map(options){
 			.attr('stroke-opacity', "0.5")
 			.on('click', function(d, i){
 				let statewiseData = filterDataBy(data2014, d.properties.ST_NM);
-				console.log(statewiseData[0].NO_LOKSABHASEATS)
+				console.log(statewiseData[0].Party_Pos)
+				let partyPosData = statewiseData[0].Party_Pos
+				let genderCount = statewiseData[0].Gender_Count
 				d3.select('#state-name').html('<b>' + d.properties.ST_NM + '</b>')
 				d3.select('.number-of-lkseats span').html('<b>' + statewiseData[0].NO_LOKSABHASEATS + '</b>')
 				d3.select('.number-of-const span').html('<b>' + statewiseData[0].NO_CONST + '</b>')
 				d3.select('.no-of-pollingbooths span').html('<b>' + statewiseData[0].NO_POLLINGBOOTHS + '</b>')
 				d3.select('.no-of-voters span').html('<b>' + statewiseData[0].NO_VOTERS + '</b>')
+				drawPartyPos("#party-positions", partyPosData, {
+					width: 650,
+					height: 400,
+					margin: { top: 20, right: 20, bottom: 50, left: 80 },
+					xAxisLabel: "Partyname",
+					yAxisLabel: "Votes",
+				});
+				drawPartyPos("#gender-count", genderCount, {
+					width: 650,
+					height: 400,
+					margin: { top: 20, right: 20, bottom: 50, left: 80 },
+					xAxisLabel: "Gendername",
+					yAxisLabel: "votercount",
+				});
+
+
+
+
 			})
 			.on("mouseover", function(d,i){
 

@@ -1,22 +1,42 @@
 [
   {
-    "ST_CODE": "",
+    "ST_CODE": "S00",
     "ST_NAME": "India",
     "ST_VHCODE": "IN",
     "NO_LOKSABHASEATS": "10",
     "NO_CONST": 543,
     "NO_POLLINGBOOTHS": "0",
-    "Party_Pos": {
-      "YSRCP": 413191,
-      "TDP": 321793,
-      "BJP": "",
-      "INC": 52884,
-      "JASPA ": "",
-      "Others": 121746
-    },
+    "Party_Pos": [
+      {
+        "Partyname": "YSRCP",
+        "Votes": 413191
+      },
+      {
+        "Partyname": "TDP",
+        "Votes": 321793
+      },
+      {
+        "Partyname": "BJP",
+        "Votes": 0
+      },
+      {
+        "Partyname": "INC",
+        "Votes": 52884
+      },
+      {
+        "Partyname": "JASPA",
+        "Votes": 0
+      },
+      {
+        "Partyname": "Others",
+        "Votes": 121746
+      }
+    ],
     "NO_VOTERS": "",
-    "NO_MALEVOTER": "",
-    "NO_FEMALEVOTER": ""
+    "Gender_Count": [
+      {"Gendername": "Male", "votercount": 393091 },
+      {"Gendername": "Female", "votercount": 391778 }
+    ]
   },
   {
     "ST_CODE": "S01",
@@ -52,8 +72,16 @@
       }
     ],
     "NO_VOTERS": 37773672,
-    "NO_MALEVOTER": "1,85,88,505 ",
-    "NO_FEMALEVOTER": "1,88,10,336"
+    "Gender_Count": [
+      {
+        "Gendername": "Male",
+        "votercount": 353091
+      },
+      {
+        "Gendername": "Female",
+        "votercount": 391778
+      }
+    ]
   },
   {
     "ST_CODE": "S02",
@@ -69,8 +97,10 @@
       {"Partyname" : "JASPA", "Votes" : 0},
       {"Partyname" : "Others", "Votes" : 121746}],
     "NO_VOTERS": 784870,
-    "NO_MALEVOTER": "3,93,091",
-    "NO_FEMALEVOTER": "3,91,778"
+    "Gender_Count": [
+      {"Gendername": "Male", "votercount": 393091 },
+      {"Gendername": "Female", "votercount": 391778 }
+    ]
   },
   {
     "ST_CODE": "S03",
@@ -222,8 +252,10 @@
       {"Partyname" : "JASPA", "Votes" : 0},
       {"Partyname" : "Others", "Votes" : 121746}],
     "NO_VOTERS": "",
-    "NO_MALEVOTER": "",
-    "NO_FEMALEVOTER": ""
+    "Gender_Count": [
+      {"Gendername": "Male", "votercount": 393091 },
+      {"Gendername": "Female", "votercount": 391778 }
+    ]
   },
   {
     "ST_CODE": "S12",
@@ -273,8 +305,10 @@
       {"Partyname" : "JASPA", "Votes" : 0},
       {"Partyname" : "Others", "Votes" : 121746}],
     "NO_VOTERS": "",
-    "NO_MALEVOTER": "",
-    "NO_FEMALEVOTER": ""
+    "Gender_Count": [
+      {"Gendername": "Male", "votercount": 393091 },
+      {"Gendername": "Female", "votercount": 391778 }
+    ]
   },
   {
     "ST_CODE": "S15",
@@ -358,8 +392,10 @@
       {"Partyname" : "JASPA", "Votes" : 0},
       {"Partyname" : "Others", "Votes" : 121746}],
     "NO_VOTERS": "",
-    "NO_MALEVOTER": "",
-    "NO_FEMALEVOTER": ""
+    "Gender_Count": [
+      {"Gendername": "Male", "votercount": 393091 },
+      {"Gendername": "Female", "votercount": 391778 }
+    ]
   },
   {
     "ST_CODE": "S20",
@@ -443,8 +479,10 @@
       {"Partyname" : "JASPA", "Votes" : 0},
       {"Partyname" : "Others", "Votes" : 121746}],
     "NO_VOTERS": "",
-    "NO_MALEVOTER": "",
-    "NO_FEMALEVOTER": ""
+    "Gender_Count": [
+      {"Gendername": "Male", "votercount": 393091 },
+      {"Gendername": "Female", "votercount": 391778 }
+    ]
   },
   {
     "ST_CODE": "S25",
@@ -460,8 +498,10 @@
       {"Partyname" : "JASPA", "Votes" : 0},
       {"Partyname" : "Others", "Votes" : 121746}],
     "NO_VOTERS": "",
-    "NO_MALEVOTER": "",
-    "NO_FEMALEVOTER": ""
+    "Gender_Count": [
+      {"Gendername": "Male", "votercount": 393091 },
+      {"Gendername": "Female", "votercount": 391778 }
+    ]
   },
   {
     "ST_CODE": "S26",
@@ -477,8 +517,10 @@
       {"Partyname" : "JASPA", "Votes" : 0},
       {"Partyname" : "Others", "Votes" : 121746}],
     "NO_VOTERS": "",
-    "NO_MALEVOTER": "",
-    "NO_FEMALEVOTER": ""
+    "Gender_Count": [
+      {"Gendername": "Male", "votercount": 393091 },
+      {"Gendername": "Female", "votercount": 391778 }
+    ]
   },
   {
     "ST_CODE": "S27",
@@ -494,8 +536,10 @@
       {"Partyname" : "JASPA", "Votes" : 0},
       {"Partyname" : "Others", "Votes" : 121746}],
     "NO_VOTERS": "",
-    "NO_MALEVOTER": "",
-    "NO_FEMALEVOTER": ""
+    "Gender_Count": [
+      {"Gendername": "Male", "votercount": 393091 },
+      {"Gendername": "Female", "votercount": 391778 }
+    ]
   },
   {
     "ST_CODE": "S28",
@@ -511,8 +555,10 @@
       {"Partyname" : "JASPA", "Votes" : 0},
       {"Partyname" : "Others", "Votes" : 121746}],
     "NO_VOTERS": "",
-    "NO_MALEVOTER": "",
-    "NO_FEMALEVOTER": ""
+    "Gender_Count": [
+      {"Gendername": "Male", "votercount": 393091 },
+      {"Gendername": "Female", "votercount": 391778 }
+    ]
   },
   {
     "ST_CODE": "S29",
