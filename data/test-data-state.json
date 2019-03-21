@@ -9,46 +9,58 @@
     "NO_VOTERS": 37773672,
     "Gender_Count": [
       {
-        "ST_CODE": "S00",
+        "ST_CODE": "S01",
         "Gendername": "Male",
         "votercount": 393091
       },
       {
-        "ST_CODE": "S00",
+        "ST_CODE": "S01",
         "Gendername": "Female",
         "votercount": 391778
       }
     ],
     "Party_Pos": [
       {
-        "ST_CODE": "S00",
+        "ST_CODE": "S01",
         "Partyname": "YSRCP",
         "Votes": 413191
       },
       {
-        "ST_CODE": "S00",
+        "ST_CODE": "S01",
         "Partyname": "TDP",
         "Votes": 321793
       },
       {
-        "ST_CODE": "S00",
-        "Partyname": "BJP",
-        "Votes": 0
-      },
-      {
-        "ST_CODE": "S00",
+        "ST_CODE": "S01",
         "Partyname": "INC",
         "Votes": 52884
       },
       {
-        "ST_CODE": "S00",
-        "Partyname": "JASPA",
-        "Votes": 0
-      },
-      {
-        "ST_CODE": "S00",
+        "ST_CODE": "S01",
         "Partyname": "Others",
         "Votes": 121746
+      }
+    ],
+    "Religious_Voteshare": [
+      {
+        "ST_CODE": "S01",
+        "religion": "Hindu",
+        "voteshare": 23.69
+      },
+      {
+        "ST_CODE": "S01",
+        "religion": "Muslim",
+        "voteshare": 1.57
+      },
+      {
+        "ST_CODE": "S01",
+        "religion": "Christian",
+        "voteshare": 1.55
+      },
+      {
+        "ST_CODE": "S01",
+        "religion": "Others",
+        "voteshare": 73.19
       }
     ]
   },
@@ -103,6 +115,28 @@
         "Partyname": "Others",
         "Votes": 121746
       }
+    ],
+    "Religious_Voteshare": [
+      {
+        "ST_CODE": "S01",
+        "religion": "Hindu",
+        "voteshare": 23.69
+      },
+      {
+        "ST_CODE": "S01",
+        "religion": "Muslim",
+        "voteshare": 1.57
+      },
+      {
+        "ST_CODE": "S01",
+        "religion": "Christian",
+        "voteshare": 1.55
+      },
+      {
+        "ST_CODE": "S01",
+        "religion": "Others",
+        "voteshare": 73.19
+      }
     ]
   },
   {
@@ -155,6 +189,28 @@
         "ST_CODE": "S02",
         "Partyname": "Others",
         "Votes": 34666
+      }
+    ],
+    "Religious_Voteshare": [
+      {
+        "ST_CODE": "S02",
+        "religion": "Hindu",
+        "voteshare": 15.67
+      },
+      {
+        "ST_CODE": "S02",
+        "religion": "Muslim",
+        "voteshare": 0.83
+      },
+      {
+        "ST_CODE": "S02",
+        "religion": "Christian",
+        "voteshare": 47.19
+      },
+      {
+        "ST_CODE": "S02",
+        "religion": "Others",
+        "voteshare": 36.31
       }
     ]
   },
@@ -209,6 +265,28 @@
         "Partyname": "Others",
         "Votes": 121746
       }
+    ],
+    "Religious_Voteshare": [
+      {
+        "ST_CODE": "S03",
+        "religion": "Hindu",
+        "voteshare": 23.69
+      },
+      {
+        "ST_CODE": "S03",
+        "religion": "Muslim",
+        "voteshare": 1.57
+      },
+      {
+        "ST_CODE": "S03",
+        "religion": "Christian",
+        "voteshare": 1.55
+      },
+      {
+        "ST_CODE": "S03",
+        "religion": "Others",
+        "voteshare": 73.19
+      }
     ]
   },
   {
@@ -220,7 +298,29 @@
     "NO_POLLINGBOOTHS": 40,
     "NO_VOTERS": 1152412,
     "Gender_Count": [],
-    "Party_Pos": []
+    "Party_Pos": [],
+    "Religious_Voteshare": [
+      {
+        "ST_CODE": "S04",
+        "religion": "Hindu",
+        "voteshare": 15.67
+      },
+      {
+        "ST_CODE": "S04",
+        "religion": "Muslim",
+        "voteshare": 0.83
+      },
+      {
+        "ST_CODE": "S04",
+        "religion": "Christian",
+        "voteshare": 47.19
+      },
+      {
+        "ST_CODE": "S04",
+        "religion": "Others",
+        "voteshare": 36.31
+      }
+    ]
   },
   {
     "ST_CODE": "S05",
@@ -231,7 +331,8 @@
     "NO_POLLINGBOOTHS": 2,
     "NO_VOTERS": 42283583,
     "Gender_Count": [],
-    "Party_Pos": []
+    "Party_Pos": [],
+    "Religious_Voteshare": []
   },
   {
     "ST_CODE": "S06",
@@ -242,7 +343,8 @@
     "NO_POLLINGBOOTHS": 26,
     "NO_VOTERS": 16186285,
     "Gender_Count": [],
-    "Party_Pos": []
+    "Party_Pos": [],
+    "Religious_Voteshare": []
   },
   {
     "ST_CODE": "S07",
@@ -253,7 +355,8 @@
     "NO_POLLINGBOOTHS": 10,
     "NO_VOTERS": 4218480,
     "Gender_Count": [],
-    "Party_Pos": []
+    "Party_Pos": [],
+    "Religious_Voteshare": []
   },
   {
     "ST_CODE": "S08",
@@ -264,7 +367,8 @@
     "NO_POLLINGBOOTHS": 4,
     "NO_VOTERS": 3422149,
     "Gender_Count": [],
-    "Party_Pos": []
+    "Party_Pos": [],
+    "Religious_Voteshare": []
   },
   {
     "ST_CODE": "S09",
@@ -275,7 +379,8 @@
     "NO_POLLINGBOOTHS": 6,
     "NO_VOTERS": 45035041,
     "Gender_Count": [],
-    "Party_Pos": []
+    "Party_Pos": [],
+    "Religious_Voteshare": []
   },
   {
     "ST_CODE": "S10",
@@ -286,7 +391,8 @@
     "NO_POLLINGBOOTHS": 28,
     "NO_VOTERS": 33406061,
     "Gender_Count": [],
-    "Party_Pos": []
+    "Party_Pos": [],
+    "Religious_Voteshare": []
   },
   {
     "ST_CODE": "S11",
@@ -297,7 +403,8 @@
     "NO_POLLINGBOOTHS": 20,
     "NO_VOTERS": 47965786,
     "Gender_Count": [],
-    "Party_Pos": []
+    "Party_Pos": [],
+    "Religious_Voteshare": []
   },
   {
     "ST_CODE": "S12",
@@ -308,7 +415,8 @@
     "NO_POLLINGBOOTHS": 29,
     "NO_VOTERS": 27743338,
     "Gender_Count": [],
-    "Party_Pos": []
+    "Party_Pos": [],
+    "Religious_Voteshare": []
   },
   {
     "ST_CODE": "S14",
@@ -319,7 +427,8 @@
     "NO_POLLINGBOOTHS": 2,
     "NO_VOTERS": "",
     "Gender_Count": [],
-    "Party_Pos": []
+    "Party_Pos": [],
+    "Religious_Voteshare": []
   },
   {
     "ST_CODE": "S15",
@@ -330,7 +439,8 @@
     "NO_POLLINGBOOTHS": 2,
     "NO_VOTERS": 1615216,
     "Gender_Count": [],
-    "Party_Pos": []
+    "Party_Pos": [],
+    "Religious_Voteshare": []
   },
   {
     "ST_CODE": "S16",
@@ -341,7 +451,8 @@
     "NO_POLLINGBOOTHS": 1,
     "NO_VOTERS": 723663,
     "Gender_Count": [],
-    "Party_Pos": []
+    "Party_Pos": [],
+    "Religious_Voteshare": []
   },
   {
     "ST_CODE": "S17",
@@ -352,7 +463,8 @@
     "NO_POLLINGBOOTHS": 1,
     "NO_VOTERS": 1192084,
     "Gender_Count": [],
-    "Party_Pos": []
+    "Party_Pos": [],
+    "Religious_Voteshare": []
   },
   {
     "ST_CODE": "S18",
@@ -363,7 +475,8 @@
     "NO_POLLINGBOOTHS": 21,
     "NO_VOTERS": 28266168,
     "Gender_Count": [],
-    "Party_Pos": []
+    "Party_Pos": [],
+    "Religious_Voteshare": []
   },
   {
     "ST_CODE": "S19",
@@ -374,7 +487,8 @@
     "NO_POLLINGBOOTHS": 13,
     "NO_VOTERS": 27743338,
     "Gender_Count": [],
-    "Party_Pos": []
+    "Party_Pos": [],
+    "Religious_Voteshare": []
   },
   {
     "ST_CODE": "S20",
@@ -385,7 +499,8 @@
     "NO_POLLINGBOOTHS": 25,
     "NO_VOTERS": 41572188,
     "Gender_Count": [],
-    "Party_Pos": []
+    "Party_Pos": [],
+    "Religious_Voteshare": []
   },
   {
     "ST_CODE": "S21",
@@ -396,7 +511,8 @@
     "NO_POLLINGBOOTHS": 1,
     "NO_VOTERS": 385287,
     "Gender_Count": [],
-    "Party_Pos": []
+    "Party_Pos": [],
+    "Religious_Voteshare": []
   },
   {
     "ST_CODE": "S22",
@@ -407,7 +523,8 @@
     "NO_POLLINGBOOTHS": 39,
     "NO_VOTERS": 49198794,
     "Gender_Count": [],
-    "Party_Pos": []
+    "Party_Pos": [],
+    "Religious_Voteshare": []
   },
   {
     "ST_CODE": "S23",
@@ -418,7 +535,8 @@
     "NO_POLLINGBOOTHS": 2,
     "NO_VOTERS": 2524876,
     "Gender_Count": [],
-    "Party_Pos": []
+    "Party_Pos": [],
+    "Religious_Voteshare": []
   },
   {
     "ST_CODE": "S24",
@@ -429,7 +547,8 @@
     "NO_POLLINGBOOTHS": 80,
     "NO_VOTERS": 121868645,
     "Gender_Count": [],
-    "Party_Pos": []
+    "Party_Pos": [],
+    "Religious_Voteshare": []
   },
   {
     "ST_CODE": "S25",
@@ -440,7 +559,8 @@
     "NO_POLLINGBOOTHS": 42,
     "NO_VOTERS": 91276115,
     "Gender_Count": [],
-    "Party_Pos": []
+    "Party_Pos": [],
+    "Religious_Voteshare": []
   },
   {
     "ST_CODE": "S26",
@@ -451,7 +571,8 @@
     "NO_POLLINGBOOTHS": 11,
     "NO_VOTERS": 19002074,
     "Gender_Count": [],
-    "Party_Pos": []
+    "Party_Pos": [],
+    "Religious_Voteshare": []
   },
   {
     "ST_CODE": "S27",
@@ -462,7 +583,8 @@
     "NO_POLLINGBOOTHS": 14,
     "NO_VOTERS": 19772103,
     "Gender_Count": [],
-    "Party_Pos": []
+    "Party_Pos": [],
+    "Religious_Voteshare": []
   },
   {
     "ST_CODE": "S28",
@@ -473,7 +595,8 @@
     "NO_POLLINGBOOTHS": 5,
     "NO_VOTERS": 6720925,
     "Gender_Count": [],
-    "Party_Pos": []
+    "Party_Pos": [],
+    "Religious_Voteshare": []
   },
   {
     "ST_CODE": "S29",
@@ -484,7 +607,8 @@
     "NO_POLLINGBOOTHS": 17,
     "NO_VOTERS": 29351248,
     "Gender_Count": [],
-    "Party_Pos": []
+    "Party_Pos": [],
+    "Religious_Voteshare": []
   },
   {
     "ST_CODE": "U01",
@@ -495,7 +619,8 @@
     "NO_POLLINGBOOTHS": 1,
     "NO_VOTERS": 188764,
     "Gender_Count": [],
-    "Party_Pos": []
+    "Party_Pos": [],
+    "Religious_Voteshare": []
   },
   {
     "ST_CODE": "U02",
@@ -506,7 +631,8 @@
     "NO_POLLINGBOOTHS": 1,
     "NO_VOTERS": 450349,
     "Gender_Count": [],
-    "Party_Pos": []
+    "Party_Pos": [],
+    "Religious_Voteshare": []
   },
   {
     "ST_CODE": "U03",
@@ -517,7 +643,8 @@
     "NO_POLLINGBOOTHS": 1,
     "NO_VOTERS": 162324,
     "Gender_Count": [],
-    "Party_Pos": []
+    "Party_Pos": [],
+    "Religious_Voteshare": []
   },
   {
     "ST_CODE": "U04",
@@ -528,7 +655,8 @@
     "NO_POLLINGBOOTHS": 1,
     "NO_VOTERS": 85917,
     "Gender_Count": [],
-    "Party_Pos": []
+    "Party_Pos": [],
+    "Religious_Voteshare": []
   },
   {
     "ST_CODE": "U05",
@@ -539,7 +667,8 @@
     "NO_POLLINGBOOTHS": 7,
     "NO_VOTERS": 12516620,
     "Gender_Count": [],
-    "Party_Pos": []
+    "Party_Pos": [],
+    "Religious_Voteshare": []
   },
   {
     "ST_CODE": "U06",
@@ -550,7 +679,8 @@
     "NO_POLLINGBOOTHS": 1,
     "NO_VOTERS": 43116,
     "Gender_Count": [],
-    "Party_Pos": []
+    "Party_Pos": [],
+    "Religious_Voteshare": []
   },
   {
     "ST_CODE": "U07",
@@ -561,6 +691,7 @@
     "NO_POLLINGBOOTHS": 1,
     "NO_VOTERS": 717749,
     "Gender_Count": [],
-    "Party_Pos": []
+    "Party_Pos": [],
+    "Religious_Voteshare": []
   }
 ]

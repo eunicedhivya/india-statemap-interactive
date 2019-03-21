@@ -31,8 +31,8 @@ function drawBarchart(selection, bardata, props) {
 		.range([0, chartWidth])
 
 	const colorScale = d3.scaleOrdinal()
-		.domain(['YSRCP', 'TDP', 'BJP', 'INC', 'JASPA', 'Others'])
-		.range(['#27e89d', '#e127e8', '#e87c27', '#279ce8', '#e8d527', '#cccccc'])
+		.range(['#187ABF', '#57B786', '#F5A06F', '#E94B82', '#cccccc'])
+	// .domain(['YSRCP', 'TDP', 'BJP', 'INC', 'JASPA', 'Others'])
 
 	// Join Data
 	let bars = g.selectAll('.bar')
