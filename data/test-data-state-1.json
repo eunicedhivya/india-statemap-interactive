@@ -1,0 +1,767 @@
+[
+  {
+    "ST_CODE": "S00",
+    "ST_NAME": "India",
+    "ST_VHCODE": "IN",
+    "NO_LOKSABHASEATS": "10",
+    "NO_CONST": 543,
+    "NO_POLLINGBOOTHS": "0",
+    "Party_Pos": [
+      {
+        "Partyname": "YSRCP",
+        "Votes": 413191
+      },
+      {
+        "Partyname": "TDP",
+        "Votes": 321793
+      },
+      {
+        "Partyname": "BJP",
+        "Votes": 0
+      },
+      {
+        "Partyname": "INC",
+        "Votes": 52884
+      },
+      {
+        "Partyname": "JASPA",
+        "Votes": 0
+      },
+      {
+        "Partyname": "Others",
+        "Votes": 121746
+      }
+    ],
+    "NO_VOTERS": "",
+    "Gender_Count": [
+      {"Gendername": "Male", "votercount": 393091 },
+      {"Gendername": "Female", "votercount": 391778 }
+    ],
+    "religionvoteshare": [
+      {
+        "Religion": "Hindu",
+        "Voteshare": 40
+      },
+      {
+        "Religion": "Muslim",
+        "Voteshare": 20
+      },
+      {
+        "Religion": "SC/ST",
+        "Voteshare": 10
+      },
+      {
+        "Religion": "Others",
+        "Voteshare": 30
+      }
+    ]
+  },
+  {
+    "ST_CODE": "S01",
+    "ST_NAME": "Andhra Pradesh",
+    "ST_VHCODE": "AP",
+    "NO_LOKSABHASEATS": "10",
+    "NO_CONST": 25,
+    "NO_POLLINGBOOTHS": "0",
+    "Party_Pos": [
+      {
+        "Partyname": "YSRCP",
+        "Votes": 413191
+      },
+      {
+        "Partyname": "TDP",
+        "Votes": 321793
+      },
+      {
+        "Partyname": "BJP",
+        "Votes": 0
+      },
+      {
+        "Partyname": "INC",
+        "Votes": 52884
+      },
+      {
+        "Partyname": "JASPA",
+        "Votes": 0
+      },
+      {
+        "Partyname": "Others",
+        "Votes": 121746
+      }
+    ],
+    "NO_VOTERS": 37773672,
+    "Gender_Count": [
+      {
+        "Gendername": "Male",
+        "votercount": 353091
+      },
+      {
+        "Gendername": "Female",
+        "votercount": 391778
+      }
+    ],
+    "religionvoteshare": [
+      {
+        "Religion": "Hindu",
+        "Voteshare": 40
+      },
+      {
+        "Religion": "Muslim",
+        "Voteshare": 20
+      },
+      {
+        "Religion": "SC/ST",
+        "Voteshare": 10
+      },
+      {
+        "Religion": "Others",
+        "Voteshare": 30
+      }
+    ]
+  },
+  {
+    "ST_CODE": "S02",
+    "ST_NAME": "Arunachal Pradesh",
+    "ST_VHCODE": "AR",
+    "NO_LOKSABHASEATS": "",
+    "NO_CONST": 2,
+    "NO_POLLINGBOOTHS": "0",
+    "Party_Pos": [ {"Partyname" : "YSRCP", "Votes" : 413191},
+      {"Partyname" : "TDP", "Votes" : 321793},
+      {"Partyname" : "BJP", "Votes" : 0},
+      {"Partyname" : "INC", "Votes" : 52884},
+      {"Partyname" : "JASPA", "Votes" : 0},
+      {"Partyname" : "Others", "Votes" : 121746}],
+    "NO_VOTERS": 784870,
+    "Gender_Count": [
+      {"Gendername": "Male", "votercount": 393091 },
+      {"Gendername": "Female", "votercount": 391778 }
+    ],
+    "religionvoteshare": [
+      {"Religion": "Hindu","Voteshare": 40 },
+      {"Religion": "Muslim","Voteshare": 20 },
+      {"Religion": "SC/ST","Voteshare": 10},
+      {"Religion": "Others","Voteshare": 30}
+    ]
+  },
+  {
+    "ST_CODE": "S03",
+    "ST_NAME": "Assam",
+    "ST_VHCODE": "AS",
+    "NO_LOKSABHASEATS": "",
+    "NO_CONST": 14,
+    "NO_POLLINGBOOTHS": "0",
+    "Party_Pos": [ {"Partyname" : "YSRCP", "Votes" : 413191},
+      {"Partyname" : "TDP", "Votes" : 321793},
+      {"Partyname" : "BJP", "Votes" : 0},
+      {"Partyname" : "INC", "Votes" : 52884},
+      {"Partyname" : "JASPA", "Votes" : 0},
+      {"Partyname" : "Others", "Votes" : 121746}],
+    "NO_VOTERS": 17982407,
+    "Gender_Count": [
+      {
+        "Gendername": "Male",
+        "votercount": 393091
+      },
+      {
+        "Gendername": "Female",
+        "votercount": 391778
+      }
+    ],
+    "religionvoteshare": [
+      {
+        "Religion": "Hindu",
+        "Voteshare": 40
+      },
+      {
+        "Religion": "Muslim",
+        "Voteshare": 20
+      },
+      {
+        "Religion": "SC/ST",
+        "Voteshare": 10
+      },
+      {
+        "Religion": "Others",
+        "Voteshare": 30
+      }
+    ]
+  },
+  {
+    "ST_CODE": "S04",
+    "ST_NAME": "Bihar",
+    "ST_VHCODE": "BR",
+    "NO_LOKSABHASEATS": "",
+    "NO_CONST": 40,
+    "NO_POLLINGBOOTHS": "0",
+    "Party_Pos": [ {"Partyname" : "YSRCP", "Votes" : 413191},
+      {"Partyname" : "TDP", "Votes" : 321793},
+      {"Partyname" : "BJP", "Votes" : 0},
+      {"Partyname" : "INC", "Votes" : 52884},
+      {"Partyname" : "JASPA", "Votes" : 0},
+      {"Partyname" : "Others", "Votes" : 121746}],
+    "NO_VOTERS": 70702734,
+    "NO_MALEVOTER": "3,79,56,470",
+    "NO_FEMALEVOTER": "3,27,46,264"
+  },
+  {
+    "ST_CODE": "S05",
+    "ST_NAME": "Goa",
+    "ST_VHCODE": "GA",
+    "NO_LOKSABHASEATS": "",
+    "NO_CONST": 2,
+    "NO_POLLINGBOOTHS": "0",
+    "Party_Pos": [ {"Partyname" : "YSRCP", "Votes" : 413191},
+      {"Partyname" : "TDP", "Votes" : 321793},
+      {"Partyname" : "BJP", "Votes" : 0},
+      {"Partyname" : "INC", "Votes" : 52884},
+      {"Partyname" : "JASPA", "Votes" : 0},
+      {"Partyname" : "Others", "Votes" : 121746}],
+    "NO_VOTERS": 1152412,
+    "NO_MALEVOTER": "5,75,352 ",
+    "NO_FEMALEVOTER": "5,77,060 "
+  },
+  {
+    "ST_CODE": "S06",
+    "ST_NAME": "Gujarat",
+    "ST_VHCODE": "GJ",
+    "NO_LOKSABHASEATS": "",
+    "NO_CONST": 26,
+    "NO_POLLINGBOOTHS": "0",
+    "Party_Pos": [ {"Partyname" : "YSRCP", "Votes" : 413191},
+      {"Partyname" : "TDP", "Votes" : 321793},
+      {"Partyname" : "BJP", "Votes" : 0},
+      {"Partyname" : "INC", "Votes" : 52884},
+      {"Partyname" : "JASPA", "Votes" : 0},
+      {"Partyname" : "Others", "Votes" : 121746}],
+    "NO_VOTERS": 42283583,
+    "NO_MALEVOTER": "2,20,32,670",
+    "NO_FEMALEVOTER": "2,02,47,877 "
+  },
+  {
+    "ST_CODE": "S07",
+    "ST_NAME": "Haryana",
+    "ST_VHCODE": "HR",
+    "NO_LOKSABHASEATS": "",
+    "NO_CONST": 10,
+    "NO_POLLINGBOOTHS": "0",
+    "Party_Pos": [ {"Partyname" : "YSRCP", "Votes" : 413191},
+      {"Partyname" : "TDP", "Votes" : 321793},
+      {"Partyname" : "BJP", "Votes" : 0},
+      {"Partyname" : "INC", "Votes" : 52884},
+      {"Partyname" : "JASPA", "Votes" : 0},
+      {"Partyname" : "Others", "Votes" : 121746}],
+    "NO_VOTERS": 16186285,
+    "NO_MALEVOTER": "87,62,876",
+    "NO_FEMALEVOTER": "87,62,876"
+  },
+  {
+    "ST_CODE": "S08",
+    "ST_NAME": "Himachal Pradesh",
+    "ST_VHCODE": "HP",
+    "NO_LOKSABHASEATS": "",
+    "NO_CONST": 4,
+    "NO_POLLINGBOOTHS": "0",
+    "Party_Pos": [ {"Partyname" : "YSRCP", "Votes" : 413191},
+      {"Partyname" : "TDP", "Votes" : 321793},
+      {"Partyname" : "BJP", "Votes" : 0},
+      {"Partyname" : "INC", "Votes" : 52884},
+      {"Partyname" : "JASPA", "Votes" : 0},
+      {"Partyname" : "Others", "Votes" : 121746}],
+    "NO_VOTERS": 4218480,
+    "NO_MALEVOTER": "21,53,533",
+    "NO_FEMALEVOTER": "20,64,947 "
+  },
+  {
+    "ST_CODE": "S09",
+    "ST_NAME": "Jammu & Kashmir",
+    "ST_VHCODE": "JK",
+    "NO_LOKSABHASEATS": "",
+    "NO_CONST": 6,
+    "NO_POLLINGBOOTHS": "0",
+    "Party_Pos": [ {"Partyname" : "YSRCP", "Votes" : 413191},
+      {"Partyname" : "TDP", "Votes" : 321793},
+      {"Partyname" : "BJP", "Votes" : 0},
+      {"Partyname" : "INC", "Votes" : 52884},
+      {"Partyname" : "JASPA", "Votes" : 0},
+      {"Partyname" : "Others", "Votes" : 121746}],
+    "NO_VOTERS": 3422149,
+    "NO_MALEVOTER": "18,02,879",
+    "NO_FEMALEVOTER": "16,07,310 "
+  },
+  {
+    "ST_CODE": "S10",
+    "ST_NAME": "Karnataka",
+    "ST_VHCODE": "KA",
+    "NO_LOKSABHASEATS": "",
+    "NO_CONST": 28,
+    "NO_POLLINGBOOTHS": "0",
+    "Party_Pos": [ {"Partyname" : "YSRCP", "Votes" : 413191},
+      {"Partyname" : "TDP", "Votes" : 321793},
+      {"Partyname" : "BJP", "Votes" : 0},
+      {"Partyname" : "INC", "Votes" : 52884},
+      {"Partyname" : "JASPA", "Votes" : 0},
+      {"Partyname" : "Others", "Votes" : 121746}],
+    "NO_VOTERS": 45035041,
+    "NO_MALEVOTER": "2,29,38,899 ",
+    "NO_FEMALEVOTER": "2,20,92,861"
+  },
+  {
+    "ST_CODE": "S11",
+    "ST_NAME": "Kerala",
+    "ST_VHCODE": "KL",
+    "NO_LOKSABHASEATS": "",
+    "NO_CONST": 20,
+    "NO_POLLINGBOOTHS": "0",
+    "Party_Pos": [ {"Partyname" : "YSRCP", "Votes" : 413191},
+      {"Partyname" : "TDP", "Votes" : 321793},
+      {"Partyname" : "BJP", "Votes" : 0},
+      {"Partyname" : "INC", "Votes" : 52884},
+      {"Partyname" : "JASPA", "Votes" : 0},
+      {"Partyname" : "Others", "Votes" : 121746}],
+    "NO_VOTERS": "",
+    "Gender_Count": [
+      {"Gendername": "Male", "votercount": 393091 },
+      {"Gendername": "Female", "votercount": 391778 }
+    ]
+  },
+  {
+    "ST_CODE": "S12",
+    "ST_NAME": "Madhya Pradesh",
+    "ST_VHCODE": "MP",
+    "NO_LOKSABHASEATS": "",
+    "NO_CONST": 29,
+    "NO_POLLINGBOOTHS": "0",
+    "Party_Pos": [ {"Partyname" : "YSRCP", "Votes" : 413191},
+      {"Partyname" : "TDP", "Votes" : 321793},
+      {"Partyname" : "BJP", "Votes" : 0},
+      {"Partyname" : "INC", "Votes" : 52884},
+      {"Partyname" : "JASPA", "Votes" : 0},
+      {"Partyname" : "Others", "Votes" : 121746}],
+    "NO_VOTERS": 47965786,
+    "NO_MALEVOTER": "2,52,60,497",
+    "NO_FEMALEVOTER": "2,27,04,087"
+  },
+  {
+    "ST_CODE": "S13",
+    "ST_NAME": "Maharashtra",
+    "ST_VHCODE": "MH",
+    "NO_LOKSABHASEATS": "",
+    "NO_CONST": 48,
+    "NO_POLLINGBOOTHS": "0",
+    "Party_Pos": [ {"Partyname" : "YSRCP", "Votes" : 413191},
+      {"Partyname" : "TDP", "Votes" : 321793},
+      {"Partyname" : "BJP", "Votes" : 0},
+      {"Partyname" : "INC", "Votes" : 52884},
+      {"Partyname" : "JASPA", "Votes" : 0},
+      {"Partyname" : "Others", "Votes" : 121746}],
+    "NO_VOTERS": "8,31,03,198 ",
+    "NO_MALEVOTER": "4,40,44,648 ",
+    "NO_FEMALEVOTER": "3,90,58,550"
+  },
+  {
+    "ST_CODE": "S14",
+    "ST_NAME": "Manipur",
+    "ST_VHCODE": "MN",
+    "NO_LOKSABHASEATS": "",
+    "NO_CONST": 2,
+    "NO_POLLINGBOOTHS": "0",
+    "Party_Pos": [ {"Partyname" : "YSRCP", "Votes" : 413191},
+      {"Partyname" : "TDP", "Votes" : 321793},
+      {"Partyname" : "BJP", "Votes" : 0},
+      {"Partyname" : "INC", "Votes" : 52884},
+      {"Partyname" : "JASPA", "Votes" : 0},
+      {"Partyname" : "Others", "Votes" : 121746}],
+    "NO_VOTERS": "",
+    "Gender_Count": [
+      {"Gendername": "Male", "votercount": 393091 },
+      {"Gendername": "Female", "votercount": 391778 }
+    ]
+  },
+  {
+    "ST_CODE": "S15",
+    "ST_NAME": "Meghalaya",
+    "ST_VHCODE": "ML",
+    "NO_LOKSABHASEATS": "",
+    "NO_CONST": 2,
+    "NO_POLLINGBOOTHS": "0",
+    "Party_Pos": [ {"Partyname" : "YSRCP", "Votes" : 413191},
+      {"Partyname" : "TDP", "Votes" : 321793},
+      {"Partyname" : "BJP", "Votes" : 0},
+      {"Partyname" : "INC", "Votes" : 52884},
+      {"Partyname" : "JASPA", "Votes" : 0},
+      {"Partyname" : "Others", "Votes" : 121746}],
+    "NO_VOTERS": "16,15,216 ",
+    "NO_MALEVOTER": "8,01,665",
+    "NO_FEMALEVOTER": "8,13,551"
+  },
+  {
+    "ST_CODE": "S16",
+    "ST_NAME": "Mizoram",
+    "ST_VHCODE": "MZ",
+    "NO_LOKSABHASEATS": "",
+    "NO_CONST": 1,
+    "NO_POLLINGBOOTHS": "0",
+    "Party_Pos": [ {"Partyname" : "YSRCP", "Votes" : 413191},
+      {"Partyname" : "TDP", "Votes" : 321793},
+      {"Partyname" : "BJP", "Votes" : 0},
+      {"Partyname" : "INC", "Votes" : 52884},
+      {"Partyname" : "JASPA", "Votes" : 0},
+      {"Partyname" : "Others", "Votes" : 121746}],
+    "NO_VOTERS": "7,23,663",
+    "NO_MALEVOTER": "3,54,872 ",
+    "NO_FEMALEVOTER": "3,68,791"
+  },
+  {
+    "ST_CODE": "S17",
+    "ST_NAME": "Nagaland",
+    "ST_VHCODE": "NL",
+    "NO_LOKSABHASEATS": "",
+    "NO_CONST": 1,
+    "NO_POLLINGBOOTHS": "0",
+    "Party_Pos": [ {"Partyname" : "YSRCP", "Votes" : 413191},
+      {"Partyname" : "TDP", "Votes" : 321793},
+      {"Partyname" : "BJP", "Votes" : 0},
+      {"Partyname" : "INC", "Votes" : 52884},
+      {"Partyname" : "JASPA", "Votes" : 0},
+      {"Partyname" : "Others", "Votes" : 121746}],
+    "NO_VOTERS": "11,92,084 ",
+    "NO_MALEVOTER": "6,01,657 ",
+    "NO_FEMALEVOTER": "5,90,427"
+  },
+  {
+    "ST_CODE": "S18",
+    "ST_NAME": "Odisha",
+    "ST_VHCODE": "OD",
+    "NO_LOKSABHASEATS": "",
+    "NO_CONST": 21,
+    "NO_POLLINGBOOTHS": "0",
+    "Party_Pos": [ {"Partyname" : "YSRCP", "Votes" : 413191},
+      {"Partyname" : "TDP", "Votes" : 321793},
+      {"Partyname" : "BJP", "Votes" : 0},
+      {"Partyname" : "INC", "Votes" : 52884},
+      {"Partyname" : "JASPA", "Votes" : 0},
+      {"Partyname" : "Others", "Votes" : 121746}],
+    "NO_VOTERS": "2,82,66,168",
+    "NO_MALEVOTER": "1,47,43,591",
+    "NO_FEMALEVOTER": "1,35,22,577"
+  },
+  {
+    "ST_CODE": "S19",
+    "ST_NAME": "Punjab",
+    "ST_VHCODE": "PB",
+    "NO_LOKSABHASEATS": "",
+    "NO_CONST": 13,
+    "NO_POLLINGBOOTHS": "0",
+    "Party_Pos": [ {"Partyname" : "YSRCP", "Votes" : 413191},
+      {"Partyname" : "TDP", "Votes" : 321793},
+      {"Partyname" : "BJP", "Votes" : 0},
+      {"Partyname" : "INC", "Votes" : 52884},
+      {"Partyname" : "JASPA", "Votes" : 0},
+      {"Partyname" : "Others", "Votes" : 121746}],
+    "NO_VOTERS": "",
+    "Gender_Count": [
+      {"Gendername": "Male", "votercount": 393091 },
+      {"Gendername": "Female", "votercount": 391778 }
+    ]
+  },
+  {
+    "ST_CODE": "S20",
+    "ST_NAME": "Rajasthan",
+    "ST_VHCODE": "RJ",
+    "NO_LOKSABHASEATS": "",
+    "NO_CONST": 25,
+    "NO_POLLINGBOOTHS": "0",
+    "Party_Pos": [ {"Partyname" : "YSRCP", "Votes" : 413191},
+      {"Partyname" : "TDP", "Votes" : 321793},
+      {"Partyname" : "BJP", "Votes" : 0},
+      {"Partyname" : "INC", "Votes" : 52884},
+      {"Partyname" : "JASPA", "Votes" : 0},
+      {"Partyname" : "Others", "Votes" : 121746}],
+    "NO_VOTERS": "4,15,72,188",
+    "NO_MALEVOTER": "2,18,97,603",
+    "NO_FEMALEVOTER": "1,96,74,585"
+  },
+  {
+    "ST_CODE": "S21",
+    "ST_NAME": "Sikkim",
+    "ST_VHCODE": "SK",
+    "NO_LOKSABHASEATS": "",
+    "NO_CONST": 1,
+    "NO_POLLINGBOOTHS": "0",
+    "Party_Pos": [ {"Partyname" : "YSRCP", "Votes" : 413191},
+      {"Partyname" : "TDP", "Votes" : 321793},
+      {"Partyname" : "BJP", "Votes" : 0},
+      {"Partyname" : "INC", "Votes" : 52884},
+      {"Partyname" : "JASPA", "Votes" : 0},
+      {"Partyname" : "Others", "Votes" : 121746}],
+    "NO_VOTERS": "3,85,287",
+    "NO_MALEVOTER": "1,98,637",
+    "NO_FEMALEVOTER": "1,86,645"
+  },
+  {
+    "ST_CODE": "S22",
+    "ST_NAME": "Tamil Nadu",
+    "ST_VHCODE": "TN",
+    "NO_LOKSABHASEATS": "",
+    "NO_CONST": 39,
+    "NO_POLLINGBOOTHS": "0",
+    "Party_Pos": [ {"Partyname" : "YSRCP", "Votes" : 413191},
+      {"Partyname" : "TDP", "Votes" : 321793},
+      {"Partyname" : "BJP", "Votes" : 0},
+      {"Partyname" : "INC", "Votes" : 52884},
+      {"Partyname" : "JASPA", "Votes" : 0},
+      {"Partyname" : "Others", "Votes" : 121746}],
+    "NO_VOTERS": "4,91,98,794 ",
+    "NO_MALEVOTER": "2,46,17,350",
+    "NO_FEMALEVOTER": "2,45,78,920"
+  },
+  {
+    "ST_CODE": "S23",
+    "ST_NAME": "Tripura",
+    "ST_VHCODE": "TR",
+    "NO_LOKSABHASEATS": "",
+    "NO_CONST": 2,
+    "NO_POLLINGBOOTHS": "0",
+    "Party_Pos": [ {"Partyname" : "YSRCP", "Votes" : 413191},
+      {"Partyname" : "TDP", "Votes" : 321793},
+      {"Partyname" : "BJP", "Votes" : 0},
+      {"Partyname" : "INC", "Votes" : 52884},
+      {"Partyname" : "JASPA", "Votes" : 0},
+      {"Partyname" : "Others", "Votes" : 121746}],
+    "NO_VOTERS": "25,24,876 ",
+    "NO_MALEVOTER": "12,78,050",
+    "NO_FEMALEVOTER": "12,46,826"
+  },
+  {
+    "ST_CODE": "S24",
+    "ST_NAME": "Uttar Pradesh",
+    "ST_VHCODE": "UP",
+    "NO_LOKSABHASEATS": "",
+    "NO_CONST": 80,
+    "NO_POLLINGBOOTHS": "0",
+    "Party_Pos": [ {"Partyname" : "YSRCP", "Votes" : 413191},
+      {"Partyname" : "TDP", "Votes" : 321793},
+      {"Partyname" : "BJP", "Votes" : 0},
+      {"Partyname" : "INC", "Votes" : 52884},
+      {"Partyname" : "JASPA", "Votes" : 0},
+      {"Partyname" : "Others", "Votes" : 121746}],
+    "NO_VOTERS": "",
+    "Gender_Count": [
+      {"Gendername": "Male", "votercount": 393091 },
+      {"Gendername": "Female", "votercount": 391778 }
+    ]
+  },
+  {
+    "ST_CODE": "S25",
+    "ST_NAME": "West Bengal",
+    "ST_VHCODE": "WB",
+    "NO_LOKSABHASEATS": "",
+    "NO_CONST": 42,
+    "NO_POLLINGBOOTHS": "0",
+    "Party_Pos": [ {"Partyname" : "YSRCP", "Votes" : 413191},
+      {"Partyname" : "TDP", "Votes" : 321793},
+      {"Partyname" : "BJP", "Votes" : 0},
+      {"Partyname" : "INC", "Votes" : 52884},
+      {"Partyname" : "JASPA", "Votes" : 0},
+      {"Partyname" : "Others", "Votes" : 121746}],
+    "NO_VOTERS": "",
+    "Gender_Count": [
+      {"Gendername": "Male", "votercount": 393091 },
+      {"Gendername": "Female", "votercount": 391778 }
+    ]
+  },
+  {
+    "ST_CODE": "S26",
+    "ST_NAME": "Chhattisgarh",
+    "ST_VHCODE": "CG",
+    "NO_LOKSABHASEATS": "",
+    "NO_CONST": 11,
+    "NO_POLLINGBOOTHS": "0",
+    "Party_Pos": [ {"Partyname" : "YSRCP", "Votes" : 413191},
+      {"Partyname" : "TDP", "Votes" : 321793},
+      {"Partyname" : "BJP", "Votes" : 0},
+      {"Partyname" : "INC", "Votes" : 52884},
+      {"Partyname" : "JASPA", "Votes" : 0},
+      {"Partyname" : "Others", "Votes" : 121746}],
+    "NO_VOTERS": "",
+    "Gender_Count": [
+      {"Gendername": "Male", "votercount": 393091 },
+      {"Gendername": "Female", "votercount": 391778 }
+    ]
+  },
+  {
+    "ST_CODE": "S27",
+    "ST_NAME": "Jharkhand",
+    "ST_VHCODE": "JH",
+    "NO_LOKSABHASEATS": "",
+    "NO_CONST": 14,
+    "NO_POLLINGBOOTHS": "0",
+    "Party_Pos": [ {"Partyname" : "YSRCP", "Votes" : 413191},
+      {"Partyname" : "TDP", "Votes" : 321793},
+      {"Partyname" : "BJP", "Votes" : 0},
+      {"Partyname" : "INC", "Votes" : 52884},
+      {"Partyname" : "JASPA", "Votes" : 0},
+      {"Partyname" : "Others", "Votes" : 121746}],
+    "NO_VOTERS": "",
+    "Gender_Count": [
+      {"Gendername": "Male", "votercount": 393091 },
+      {"Gendername": "Female", "votercount": 391778 }
+    ]
+  },
+  {
+    "ST_CODE": "S28",
+    "ST_NAME": "Uttarakhand",
+    "ST_VHCODE": "UK",
+    "NO_LOKSABHASEATS": "",
+    "NO_CONST": 5,
+    "NO_POLLINGBOOTHS": "0",
+    "Party_Pos": [ {"Partyname" : "YSRCP", "Votes" : 413191},
+      {"Partyname" : "TDP", "Votes" : 321793},
+      {"Partyname" : "BJP", "Votes" : 0},
+      {"Partyname" : "INC", "Votes" : 52884},
+      {"Partyname" : "JASPA", "Votes" : 0},
+      {"Partyname" : "Others", "Votes" : 121746}],
+    "NO_VOTERS": "",
+    "Gender_Count": [
+      {"Gendername": "Male", "votercount": 393091 },
+      {"Gendername": "Female", "votercount": 391778 }
+    ]
+  },
+  {
+    "ST_CODE": "S29",
+    "ST_NAME": "Telangana",
+    "ST_VHCODE": "TS",
+    "NO_LOKSABHASEATS": "",
+    "NO_CONST": 17,
+    "NO_POLLINGBOOTHS": "0",
+    "Party_Pos": [ {"Partyname" : "YSRCP", "Votes" : 413191},
+      {"Partyname" : "TDP", "Votes" : 321793},
+      {"Partyname" : "BJP", "Votes" : 0},
+      {"Partyname" : "INC", "Votes" : 52884},
+      {"Partyname" : "JASPA", "Votes" : 0},
+      {"Partyname" : "Others", "Votes" : 121746}],
+    "NO_VOTERS": 29351248,
+    "NO_MALEVOTER": 14753468,
+    "NO_FEMALEVOTER": 14090973
+  },
+  {
+    "ST_CODE": "U01",
+    "ST_NAME": "Andaman & Nicobar Island",
+    "ST_VHCODE": "AN",
+    "NO_LOKSABHASEATS": "",
+    "NO_CONST": 1,
+    "NO_POLLINGBOOTHS": "0",
+    "Party_Pos": [ {"Partyname" : "YSRCP", "Votes" : 413191},
+      {"Partyname" : "TDP", "Votes" : 321793},
+      {"Partyname" : "BJP", "Votes" : 0},
+      {"Partyname" : "INC", "Votes" : 52884},
+      {"Partyname" : "JASPA", "Votes" : 0},
+      {"Partyname" : "Others", "Votes" : 121746}],
+    "NO_VOTERS": 188764,
+    "NO_MALEVOTER": 101178,
+    "NO_FEMALEVOTER": 89150
+  },
+  {
+    "ST_CODE": "U02",
+    "ST_NAME": "Chandigarh",
+    "ST_VHCODE": "CH",
+    "NO_LOKSABHASEATS": "",
+    "NO_CONST": 1,
+    "NO_POLLINGBOOTHS": "0",
+    "Party_Pos": [ {"Partyname" : "YSRCP", "Votes" : 413191},
+      {"Partyname" : "TDP", "Votes" : 321793},
+      {"Partyname" : "BJP", "Votes" : 0},
+      {"Partyname" : "INC", "Votes" : 52884},
+      {"Partyname" : "JASPA", "Votes" : 0},
+      {"Partyname" : "Others", "Votes" : 121746}],
+    "NO_VOTERS": 450349,
+    "NO_MALEVOTER": 244956,
+    "NO_FEMALEVOTER": 208499
+  },
+  {
+    "ST_CODE": "U03",
+    "ST_NAME": "Dadra & Nagar Haveli",
+    "ST_VHCODE": "DN",
+    "NO_LOKSABHASEATS": "",
+    "NO_CONST": 1,
+    "NO_POLLINGBOOTHS": "0",
+    "Party_Pos": [ {"Partyname" : "YSRCP", "Votes" : 413191},
+      {"Partyname" : "TDP", "Votes" : 321793},
+      {"Partyname" : "BJP", "Votes" : 0},
+      {"Partyname" : "INC", "Votes" : 52884},
+      {"Partyname" : "JASPA", "Votes" : 0},
+      {"Partyname" : "Others", "Votes" : 121746}],
+    "NO_VOTERS": 162324,
+    "NO_MALEVOTER": 87800,
+    "NO_FEMALEVOTER": 77486
+  },
+  {
+    "ST_CODE": "U04",
+    "ST_NAME": "Daman & Diu",
+    "ST_VHCODE": "DD",
+    "NO_LOKSABHASEATS": "",
+    "NO_CONST": 1,
+    "NO_POLLINGBOOTHS": "0",
+    "Party_Pos": [ {"Partyname" : "YSRCP", "Votes" : 413191},
+      {"Partyname" : "TDP", "Votes" : 321793},
+      {"Partyname" : "BJP", "Votes" : 0},
+      {"Partyname" : "INC", "Votes" : 52884},
+      {"Partyname" : "JASPA", "Votes" : 0},
+      {"Partyname" : "Others", "Votes" : 121746}],
+    "NO_VOTERS": 85917,
+    "NO_MALEVOTER": 42378,
+    "NO_FEMALEVOTER": 44855
+  },
+  {
+    "ST_CODE": "U05",
+    "ST_NAME": "Delhi",
+    "ST_VHCODE": "DL",
+    "NO_LOKSABHASEATS": "",
+    "NO_CONST": 7,
+    "NO_POLLINGBOOTHS": "0",
+    "Party_Pos": [ {"Partyname" : "YSRCP", "Votes" : 413191},
+      {"Partyname" : "TDP", "Votes" : 321793},
+      {"Partyname" : "BJP", "Votes" : 0},
+      {"Partyname" : "INC", "Votes" : 52884},
+      {"Partyname" : "JASPA", "Votes" : 0},
+      {"Partyname" : "Others", "Votes" : 121746}],
+    "NO_VOTERS": 12516620,
+    "NO_MALEVOTER": 6934647,
+    "NO_FEMALEVOTER": 5581383
+  },
+  {
+    "ST_CODE": "U06",
+    "ST_NAME": "Lakshadweep",
+    "ST_VHCODE": "LD",
+    "NO_LOKSABHASEATS": "",
+    "NO_CONST": 1,
+    "NO_POLLINGBOOTHS": "0",
+    "Party_Pos": [ {"Partyname" : "YSRCP", "Votes" : 413191},
+      {"Partyname" : "TDP", "Votes" : 321793},
+      {"Partyname" : "BJP", "Votes" : 0},
+      {"Partyname" : "INC", "Votes" : 52884},
+      {"Partyname" : "JASPA", "Votes" : 0},
+      {"Partyname" : "Others", "Votes" : 121746}],
+    "NO_VOTERS": 43116,
+    "NO_MALEVOTER": 21585,
+    "NO_FEMALEVOTER": 21654
+  },
+  {
+    "ST_CODE": "U07",
+    "ST_NAME": "Puducherry",
+    "ST_VHCODE": "PY",
+    "NO_LOKSABHASEATS": "",
+    "NO_CONST": 1,
+    "NO_POLLINGBOOTHS": "0",
+    "Party_Pos": [ {"Partyname" : "YSRCP", "Votes" : 413191},
+      {"Partyname" : "TDP", "Votes" : 321793},
+      {"Partyname" : "BJP", "Votes" : 0},
+      {"Partyname" : "INC", "Votes" : 52884},
+      {"Partyname" : "JASPA", "Votes" : 0},
+      {"Partyname" : "Others", "Votes" : 121746}],
+    "NO_VOTERS": 717749,
+    "NO_MALEVOTER": 351360,
+    "NO_FEMALEVOTER": 388657
+  }
+]
